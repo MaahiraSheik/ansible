@@ -8,9 +8,9 @@
   when: ansible_os_family == "RedHat"
 - name: Start and enable Nginx service
   service:
-        name: nginx
-        state: started
-        enabled: yes
+  name: nginx
+  state: started
+  enabled: yes
 
 
 
