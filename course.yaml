@@ -2,4 +2,5 @@
     COURSE: ansible
     DURATION: 10hr
     TRAINER: Siva
+    GREETING: " Hello from file "
  
