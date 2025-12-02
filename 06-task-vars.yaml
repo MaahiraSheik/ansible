@@ -8,7 +8,7 @@
   tasks:
   - name: print course information
     vars:
-    COURSE: Devsecops
+      COURSE: Devsecops
     ansible.builtin.debug:
       msg: Hello, {{ COURSE }} course duration {{ DURATION}} trainser is{{ TRAINER }}
 
