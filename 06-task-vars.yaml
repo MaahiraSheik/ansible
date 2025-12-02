@@ -13,5 +13,7 @@
       msg: Hello, {{ COURSE }} course duration {{ DURATION}} trainser is{{ TRAINER }}
 
   - name: print course information again
+    vars:
+      COURSE: Devsecops
     ansible.builtin.debug:
       msg: Hello, {{ COURSE }} course duration {{ DURATION}} trainser is{{ TRAINER }}
