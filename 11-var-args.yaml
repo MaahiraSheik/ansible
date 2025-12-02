@@ -1,3 +1,4 @@
+- name: using args
   hosts: local
   connection: local
   tasks:
