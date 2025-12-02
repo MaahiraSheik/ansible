@@ -2,12 +2,12 @@
   hosts: frontend
   become: yes
   tasks:
-  - name: install inginx
+  - name: install nginx
     ansible.builtin.package:
       name: nginx
       state: present
   - name: start service
     ansible.builtin.service:
-      name: naginx
+      name: nginx
       state: started
       enabled: yes
