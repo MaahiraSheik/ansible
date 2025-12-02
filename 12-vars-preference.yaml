@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    GREETING: "Hello from play"
+    GREETING: "Hello-from-play"
   vars_files:
   - course.yaml
   vars_prompt:
@@ -12,5 +12,5 @@
   - name: print the greeting
     vars:
       GREETING: "Hello from task"
-      ansible.builtin.debug:
-        msg: "{{ GREETING }}"
+    ansible.builtin.debug:
+      msg: "{{ GREETING }}"
